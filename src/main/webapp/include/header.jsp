@@ -6,17 +6,18 @@
         <nav class="light-green darken-1">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="main.jsp" class="brand-logo">Java考试网站</a>
+                    <a href="main.jsp" class="brand-logo">智能组卷在线考试</a>
                     <ul id="nav-mobile4" class="right hide-on-med-and-down">
                     	<s:if test="#session['USER_INFO']==null">
-                        <li><a href="#logindialog" class="waves-effect waves-light btn modal-trigger">登录</a></li>
+                        <li><a href="#logindialog" class="modal-trigger">登录</a></li>
+							<!--waves-effect waves-light btn modal-trigger-->
                         </s:if>
                         <s:else>
                         <li>
 							<div class="chip">
 								<a href="#" class="dropdown-button" style="color:#d50000;" data-activates="user_dropdown" data-induration="3000"
       								data-beloworigin="true" data-hover="true">
-						        <img src="images/soccer4.jpg" alt="大黄鸭">
+						        <img src="images/teacher.jpg" alt="大黄鸭">
 						        	<s:property value="#session['USER_INFO'].name"/>
 						        </a>
 						    </div>

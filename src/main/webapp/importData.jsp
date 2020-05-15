@@ -125,6 +125,31 @@
 		</tr>
 	</table>
 	</form>
+	<form class="col s12" name="form2" method="post" action="importstudent" enctype="multipart/form-data">
+		<table class="mytable">
+			<tr>
+				<td style="width: 210px;max-width:210px;"><span class="purple-text text-darken-2 comment">试卷文件：（<a href="other/学生import.txt">导入格式示例</a>）</span></td>
+				<td>
+					<div class="file-field input-field">
+						<div class="btn">
+							<span>上传文件</span>
+							<input type="file" name="studentImportFile">
+						</div>
+						<div class="file-path-wrapper">
+							<input class="file-path validate" type="text" size="30"  name="studentFilePath">
+						</div>
+					</div>
+				</td>
+				<td>
+					<button class="teal darken-4 waves-effect waves-teal btn-flat" type="button"
+							onclick="importStudentBegin()">
+				<span class="yellow-text text-lighten-1">导入试卷信息
+        		<i class="fas fa-arrow-right fa-lg right"></i></span>
+					</button>
+				</td>
+			</tr>
+		</table>
+	</form>
 	</div>
 	<%@ include file="include/footer.jsp" %>
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>

@@ -61,7 +61,7 @@ h2 {
 					style="background-color:<s:if test="#st.odd">#efefef</s:if><s:else>#ffffff</s:else>">
 					<td><s:property value="#st.index+1" />.</td>
 					<td style="text-align: left;"><s:property
-							value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@showContentWithImage(content)"
+							value="@mayu.java_exam.actions.ExamDetailShowAction2@showContentWithImage(content)"
 							escapeHtml="false" /></td>
 				</tr>
 				<tr

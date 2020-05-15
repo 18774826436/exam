@@ -33,8 +33,8 @@ a{
 		<div class="container" style="padding: 20px;">
 			<div class="divider" style="height: 20px; background: #fff;"></div>
 			<div class="row">
-			
-				<div class="col s12 m6">
+
+				<div class="col s12 m4">
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light my-opacity">
 							<a href="<s:url action="examcompose"/>"><img class="activator" src="images/choicequestion1.jpg"></a>
@@ -47,37 +47,35 @@ a{
 						</div>
 					</div>
 				</div>
-				
-				<div class="col s12 m6">
+
+				<div class="col s12 m4">
 					<div class="card">
-						<div
-							class="card-image waves-effect waves-block waves-light my-opacity">
+						<div class="card-image waves-effect waves-block waves-light my-opacity">
 							<a href="<s:url action="examcomposerandom"/>"><img class="activator" src="images/blankquestion1.jpg"></a>
 						</div>
 						<div class="card-content">
 							<a href="<s:url action="examcomposerandom"/>">
-							<span class="card-title activator light-green-text text-darken-4">随机抽题组卷
+							<span class="card-title activator light-green-text text-darken-4">随机组卷
 							<i class="fas fa-sign-in-alt fa-lg right light-green-text"></i></span></a>
-							<p><a href="<s:url action="examcomposerandom"/>">随机抽题组卷</a></p>
+							<p><a href="<s:url action="examcomposerandom"/>">随机组卷</a></p>
 						</div>
 					</div>
 				</div>
 
-				<div class="col s12 m6">
+				<div class="col s12 m4">
 					<div class="card">
-						<div
-								class="card-image waves-effect waves-block waves-light my-opacity">
-							<a href="<s:url action="examcomposerandom"/>"><img class="activator" src="images/blankquestion1.jpg"></a>
+						<div class="card-image waves-effect waves-block waves-light my-opacity">
+							<a href="<s:url action="examComposeGa"/>"><img class="activator" src="images/judgequestion1.jpg"></a>
 						</div>
 						<div class="card-content">
-							<a href="<s:url action="examcomposerandom"/>">
+							<a href="http://localhost:8081/index.jsp" target="_blank">
 							<span class="card-title activator light-green-text text-darken-4">智能组卷
 							<i class="fas fa-sign-in-alt fa-lg right light-green-text"></i></span></a>
-							<p><a href="<s:url action="examcomposerandom"/>">智能组卷</a></p>
+							<p><a href="http://localhost:8081/index.jsp" target="_blank">智能组卷</a></p>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>

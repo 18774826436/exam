@@ -57,7 +57,7 @@
 			   		</button>
 				</td>
 				<td style="text-align:left;">
-					<s:property escapeHtml="false" value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@showContentWithImage(question.content)"/>
+					<s:property escapeHtml="false" value="@mayu.java_exam.actions.ExamDetailShowAction2@showContentWithImage(question.content)"/>
 				</td>
 			</tr>
 			<tr style="background-color:#f9fbe7">

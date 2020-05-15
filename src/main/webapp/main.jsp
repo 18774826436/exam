@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
         body {
-            font-family: Roboto, "Microsoft YaHei";
+            font-family: Roboto, "Microsoft YaHei";}
          .my-opacity{
         	opacity:0.6;
         }
@@ -22,6 +22,7 @@
         }
         a{
 			color: #2e7d32;
+
 		}
     </style>
 </head>

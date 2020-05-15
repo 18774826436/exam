@@ -91,10 +91,10 @@
 				<span class="blue-text text-lighten-2" style="display:inline-block;width:30px;margin-top:1px;">
 				<s:property value="#st.index+1"/>.</span>
 			</td>
-			<td style="vertical-align:middle;"><s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@showContentWithImage(content)" escapeHtml="false"/></td>
+			<td style="vertical-align:middle;"><s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@showContentWithImage(content)" escapeHtml="false"/></td>
 			<td style="vertical-align:middle;">
 				<span id="choice_answer_q<s:property value="#st.index+1"/>" class="blue-text text-darken-2">
-					<s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@determineChoiceAnswer(#st.index)"/>
+					<s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@determineChoiceAnswer(#st.index)"/>
 				</span>
 			</td>
 		</tr>
@@ -102,44 +102,44 @@
 			<table>
 				<tr>
 					<td width="60px">
-						<input  type="<s:if test="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
+						<input  type="<s:if test="@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
 								name="choice_q<s:property value="#st.index+1"/>" 
 								id="q<s:property value="#st.index+1"/>_choiceA" 
-								class="with-gap" value="A" <s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'A')"/>
-								onclick="changeChoice(<s:property value='#st.index+1'/>,<s:property value='@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
+								class="with-gap" value="A" <s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'A')"/>
+								onclick="changeChoice(<s:property value='#st.index+1'/>,<s:property value='@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
 						<label for="q<s:property value="#st.index+1"/>_choiceA">A.</label>
 					</td>
 					<td><s:property value="choiceA"/></td>
 				</tr>
 				<tr>
 					<td width="60px">
-						<input 	type="<s:if test="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
+						<input 	type="<s:if test="@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
 							   	name="choice_q<s:property value="#st.index+1"/>" 
 							   	id="q<s:property value="#st.index+1"/>_choiceB" 
-							   	class="with-gap" value="B" <s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'B')"/> 
-							   	onclick="changeChoice(<s:property value="#st.index+1"/>,<s:property value='@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
+							   	class="with-gap" value="B" <s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'B')"/> 
+							   	onclick="changeChoice(<s:property value="#st.index+1"/>,<s:property value='@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
 						<label for="q<s:property value="#st.index+1"/>_choiceB">B.</label>
 					</td>
 					<td><s:property value="choiceB"/></td>
 				</tr>
 				<tr>
 					<td width="60px">
-						<input 	type="<s:if test="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
+						<input 	type="<s:if test="@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
 								name="choice_q<s:property value="#st.index+1"/>" 
 								id="q<s:property value="#st.index+1"/>_choiceC" 
-								class="with-gap" value="C"  <s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'C')"/>
-								onclick="changeChoice(<s:property value="#st.index+1"/>,<s:property value='@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
+								class="with-gap" value="C"  <s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'C')"/>
+								onclick="changeChoice(<s:property value="#st.index+1"/>,<s:property value='@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
 						<label for="q<s:property value="#st.index+1"/>_choiceC">C.</label>
 					</td>
 					<td><s:property value="choiceC"/></td>
 				</tr>
 				<tr>
 					<td width="60px">
-						<input 	type="<s:if test="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
+						<input 	type="<s:if test="@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)">checkbox</s:if><s:else>radio</s:else>" 
 								name="choice_q<s:property value="#st.index+1"/>" 
 								id="q<s:property value="#st.index+1"/>_choiceD" 
-								class="with-gap" value="D"  <s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'D')"/>
-								onclick="changeChoice(<s:property value="#st.index+1"/>,<s:property value='@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
+								class="with-gap" value="D"  <s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@determineChecked(#st.index,'D')"/>
+								onclick="changeChoice(<s:property value="#st.index+1"/>,<s:property value='@mayu.java_exam.actions.ExamDetailShowAction2@isMultipleChoice1(answer)'/>)" />
 						<label for="q<s:property value="#st.index+1"/>_choiceD">D.</label>
 					</td>
 					<td><s:property value="choiceD"/></td>
@@ -157,7 +157,7 @@
 		<tr id="blankFilling<s:property value='#st.index+1'/>"  style="height: 200px;margin: 50px;border-radius:2px; box-shadow: 5px 5px 3px #aaa;">
 			<td  style="vertical-align:middle;border-bottom: 1px solid #eee;">
 				<span class="blue-text text-lighten-2" style="display:inline-block;width:30px;"><s:property value="#st.index+1"/>.</span>
-				<span><s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@replaceBlank(content,#st.index+1)" escapeHtml="false"/>
+				<span><s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@replaceBlank(content,#st.index+1)" escapeHtml="false"/>
 				</span>
 			</td>
 		</tr>
@@ -193,7 +193,7 @@
 		</tr>
 		<input type="hidden" name="judge_q<s:property value="#st.index+1"/>" 
 			id="judge_q<s:property value="#st.index+1"/>" 
-			value="<s:property value="@cn.lynu.lyq.java_exam.actions.ExamDetailShowAction2@determineJudgeChecked(#st.index)"/>" />
+			value="<s:property value="@mayu.java_exam.actions.ExamDetailShowAction2@determineJudgeChecked(#st.index)"/>" />
 	</s:iterator>
 	</table>
 	<div class="row">

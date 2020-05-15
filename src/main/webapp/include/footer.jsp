@@ -4,24 +4,24 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">关于这个Java网站</h5>
-                <p class="grey-text text-lighten-4">希望能帮助你掌握好Java，也希望你为这个站点的成长能贡献力量。</p>
+                <h5 class="white-text">关于这个在线考试网站</h5>
+                <p class="grey-text text-lighten-4">更好的满足教师和学生的要求，进行在线教学工作</p>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">其他Java学习站点</h5>
+                <h5 class="white-text">学习资料或许网址</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">百度知道</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com">GitHub</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">SegmentFault</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">StackOverflow</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">ItEye</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.imooc.com">Mooc</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2016-2020 中南大学 计算机学院    &nbsp;作者: mayu
-            <a class="grey-text text-lighten-4 right" href="mailto:mikemelon@sina.com">跟我联系</a>
+            © 2019-2020 中南大学 计算机学院    &nbsp;作者: 马宇
+            <a class="grey-text text-lighten-4 right" href="mailto:1613880682@qq.com">跟我联系</a>
         </div>
     </div>
 </footer>

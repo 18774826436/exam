@@ -155,6 +155,9 @@
 		<action name="examcomposerandom" class="examComposeRandom">
 			<result>examComposeRandom.jsp</result>
 		</action>
+		<action name="examcomposega" class="examComposeGa">
+			<result>examComposeGa.jsp</result>
+		</action>
 		<action name="createstudentexamrandom" class="examComposeRandom"
 			method="executeForCreateStudentExam">
 			<result>examComposeRandom.jsp</result>
